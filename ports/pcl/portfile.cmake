@@ -60,7 +60,8 @@ vcpkg_configure_cmake(
         -DWITH_PNG=ON
         -DWITH_QHULL=ON
         -DWITH_QT=${WITH_QT}
-        -DWITH_VTK=ON
+        -DWITH_VTK=OFF
+        -DWITH_RSSDK=OFF
 )
 
 vcpkg_install_cmake()
